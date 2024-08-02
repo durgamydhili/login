@@ -1,0 +1,85 @@
+body {
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/321/570/497/black-minimalistic-flowers-yellow-flower-petals-black-background-1920x1200-nature-flowers-hd-art-wallpaper-preview.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+    }
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width:80%;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+.formy{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color:blue;
+    text-decoration: underline 2px solid #cfcf12;
+    padding-bottom: 1%;
+}
+label{
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 19px;
+    text-decoration: underline 2px solid #cfcf12;
+    padding-top: 3%;
+    color: blue;
+    text-shadow: 1px 1px 1px grey;
+}
+input[type="text"],[type="email"],[type="password"]{
+    padding: 1%;
+    width: 50%;
+    align-self: center;
+    border: none;
+    border-radius: 50px;
+    box-shadow:1px 2px 2px grey;
+    margin-top: 0.8%;
+    margin-bottom: 1.5%;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    accent-color: green;
+}
+h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.btn{
+    background-color: #080853;
+    color: white;
+    text-align: center;
+    align-self: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 150px;
+    width: 30%;
+    padding: 0.6;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+}
+.line{
+    margin-top: 0%;
+    width: 50%;
+    align-self: center;
+}
+.para{
+    text-align: center;
+}
+.para a{
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
